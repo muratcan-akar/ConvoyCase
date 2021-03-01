@@ -1,0 +1,693 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18362.175; Version 1903; 64bit' Language: 'tr' Physical Memory: 7637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/murat/Documents/ConvoyCase
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54752
+Successfully changed project path to: C:/Users/murat/Documents/ConvoyCase
+C:/Users/murat/Documents/ConvoyCase
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/murat/Documents/ConvoyCase/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x98e4)
+    Vendor:   
+    VRAM:     3818 MB
+    Driver:   27.20.14535.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004527 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.233 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.791 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.41 seconds
+Refreshing native plugins compatible for Editor in 10.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1104 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1545.
+Total: 27.554100 ms (FindLiveObjects: 1.984400 ms CreateObjectMapping: 0.956900 ms MarkObjects: 24.307200 ms  DeleteObjects: 0.299500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Stylized Vehicles Pack/Scenes/Cars.unity
+  artifactKey: Guid(5d5102b0afd69764193d98f58526d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Scenes/Cars.unity using Guid(5d5102b0afd69764193d98f58526d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a2ae8413e27e6e7c217e0ef0f8255') in 0.077073 seconds
+  Import took 0.092384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Stylized Vehicles Pack/Scenes/LOD_Demo.unity
+  artifactKey: Guid(2610d653224b0ed44a7c7d4c8cb4551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Scenes/LOD_Demo.unity using Guid(2610d653224b0ed44a7c7d4c8cb4551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133a69e3c1b466fbba0d3e514203297a') in 0.006618 seconds
+  Import took 0.011044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Stylized Vehicles Pack/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2591e57bbb3f7ea03aee8fab1e1ab1f') in 0.015287 seconds
+  Import took 0.032137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 672.844070 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07678fe8974910b46a4866770d41cde6') in 0.017695 seconds
+  Import took 0.022689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.612259 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/BrakeLights.mat
+  artifactKey: Guid(244cf37b097fc224ba218a8f73bbb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/BrakeLights.mat using Guid(244cf37b097fc224ba218a8f73bbb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33efc5797159f0e6f1647ae446efea30') in 0.284241 seconds
+  Import took 0.290116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/Glass.mat
+  artifactKey: Guid(cc7b2db259c363947adc3910417f93b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/Glass.mat using Guid(cc7b2db259c363947adc3910417f93b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd446cc9315f1c9376a5543cac76442ba') in 0.058700 seconds
+  Import took 0.063491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/SpecialLight2.mat
+  artifactKey: Guid(fb2ab18a8d946034fa188ace09bfe055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/SpecialLight2.mat using Guid(fb2ab18a8d946034fa188ace09bfe055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596778c7a5a233cedf925cf64861f5ac') in 0.033621 seconds
+  Import took 0.045316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/TurnLight_L.mat
+  artifactKey: Guid(fdf77876c4d24334f80697b68e292ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/TurnLight_L.mat using Guid(fdf77876c4d24334f80697b68e292ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06ec53500e9d95ab357a9077b59017') in 0.023135 seconds
+  Import took 0.029441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/TurnLight_R.mat
+  artifactKey: Guid(8e85ed6c04a0b8a4a958f2ef6792771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/TurnLight_R.mat using Guid(8e85ed6c04a0b8a4a958f2ef6792771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af096ce45886b1ae4242099ef605079') in 0.026976 seconds
+  Import took 0.032392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/PixelColors.mat
+  artifactKey: Guid(63ac1dac8c25fd64aabb42d0c70d366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/PixelColors.mat using Guid(63ac1dac8c25fd64aabb42d0c70d366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9974be5d5663abae22d73217265f8849') in 0.064178 seconds
+  Import took 0.068875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/Headlights.mat
+  artifactKey: Guid(795398b93aa6a3b40a0d70f6eed0d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/Headlights.mat using Guid(795398b93aa6a3b40a0d70f6eed0d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fa144ca1adb1cf23417d581fdc5572') in 0.030122 seconds
+  Import took 0.047139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/PixelColors.psd
+  artifactKey: Guid(a17377efbdd1a3b41a30d86102020dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/PixelColors.psd using Guid(a17377efbdd1a3b41a30d86102020dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c864776e6874ee6acac4943b1989a8b9') in 0.088923 seconds
+  Import took 0.097273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Stylized Vehicles Pack/Materials/SpecialLight1.mat
+  artifactKey: Guid(2f34479458402064aa355e6d98186952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Materials/SpecialLight1.mat using Guid(2f34479458402064aa355e6d98186952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f17b59265c35ec713d25b2e70d2a4') in 0.040974 seconds
+  Import took 0.050722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58900.685568 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs
+  artifactKey: Guid(7e0cf67d7f531944ba6cadc9585d805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs using Guid(7e0cf67d7f531944ba6cadc9585d805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060c1cfea998622b8af3b8d4220f06f5') in 0.040172 seconds
+  Import took 0.360259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.047068 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined
+  artifactKey: Guid(5f38351f5f065f94db8053959aebcd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined using Guid(5f38351f5f065f94db8053959aebcd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9dd8f444375505fedac8ebc1961209') in 0.108730 seconds
+  Import took 0.174099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep4_LOD_combined.prefab
+  artifactKey: Guid(3fbb3b9e6e8449b4dbc1d1264fdb601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep4_LOD_combined.prefab using Guid(3fbb3b9e6e8449b4dbc1d1264fdb601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec699bcfc226e7745b8d3ead00626d4') in 2.869265 seconds
+  Import took 2.962703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan1_LOD_combined.prefab
+  artifactKey: Guid(b65b37202e2ac76499abee01d11ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan1_LOD_combined.prefab using Guid(b65b37202e2ac76499abee01d11ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234dfaf146b4e9d1b34a4f73c28b1983') in 0.107295 seconds
+  Import took 0.113414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus3_LOD_combined.prefab
+  artifactKey: Guid(86a6527d99e26584bba0912bf4280f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus3_LOD_combined.prefab using Guid(86a6527d99e26584bba0912bf4280f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22421a341bf1c98a008f217f9c112e53') in 0.092587 seconds
+  Import took 0.101517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar5_LOD_combined.prefab
+  artifactKey: Guid(476f98bc4e59aa1488a57de6b882cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar5_LOD_combined.prefab using Guid(476f98bc4e59aa1488a57de6b882cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0f4d4eab78d642dbe8507ce15fcf53') in 0.116567 seconds
+  Import took 0.124211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar4_LOD_combined.prefab
+  artifactKey: Guid(4864f84bedba26642b50e753caec6588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar4_LOD_combined.prefab using Guid(4864f84bedba26642b50e753caec6588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166c8528cfa798e7b77988397e300c33') in 0.087819 seconds
+  Import took 0.092811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep5_LOD_combined.prefab
+  artifactKey: Guid(838906e798146584483cccee89ec24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep5_LOD_combined.prefab using Guid(838906e798146584483cccee89ec24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7c9e39444f6e9e13c457069e08f2a4') in 0.099767 seconds
+  Import took 0.105851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus1_LOD_combined.prefab
+  artifactKey: Guid(d7903ccc4e383ba41a499593d1bac433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus1_LOD_combined.prefab using Guid(d7903ccc4e383ba41a499593d1bac433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac40e2c18cdc3c3287d961b8c6e22d') in 0.125397 seconds
+  Import took 0.132217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan3_LOD_combined.prefab
+  artifactKey: Guid(b478b9bef30e39b45a6a7dc1b36c0541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan3_LOD_combined.prefab using Guid(b478b9bef30e39b45a6a7dc1b36c0541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a87e473c55e64d7136b63ea0bcfba3f') in 0.104367 seconds
+  Import took 0.110542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar3_LOD_combined.prefab
+  artifactKey: Guid(33816b7b9cd0d6048858c7b96f07754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar3_LOD_combined.prefab using Guid(33816b7b9cd0d6048858c7b96f07754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ecea32d063695a2e515ddad12ccb31') in 0.085763 seconds
+  Import took 0.093193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep3_LOD_combined.prefab
+  artifactKey: Guid(3b1a4bf177214324fa3c9a8ec34806a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep3_LOD_combined.prefab using Guid(3b1a4bf177214324fa3c9a8ec34806a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419f752bb978b52e6a649a64bca898c1') in 0.108820 seconds
+  Import took 0.116348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus2_LOD_combined.prefab
+  artifactKey: Guid(dadf55d122851f74e8ace74dd70bb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus2_LOD_combined.prefab using Guid(dadf55d122851f74e8ace74dd70bb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b537e49c266db72cedde98a5ae8f985') in 0.072838 seconds
+  Import took 0.100846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar1_LOD_combined.prefab
+  artifactKey: Guid(04ed5abbb327f7246b7c8c6aff397768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar1_LOD_combined.prefab using Guid(04ed5abbb327f7246b7c8c6aff397768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029ea64796c1f7e67d28ec345d294e4a') in 0.166349 seconds
+  Import took 0.173490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus4_LOD_combined.prefab
+  artifactKey: Guid(f2c254e7a254f724cbedfb39e2ef0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus4_LOD_combined.prefab using Guid(f2c254e7a254f724cbedfb39e2ef0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c1e940d7f8a52101acacd39fac1f5e') in 0.110174 seconds
+  Import took 0.119997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep2_LOD_combined.prefab
+  artifactKey: Guid(34961348aaa066b4d8ef2b75d1fb7dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep2_LOD_combined.prefab using Guid(34961348aaa066b4d8ef2b75d1fb7dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e4403c2655295f2315c3fd05db395') in 0.095211 seconds
+  Import took 0.122684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar3_LOD_combined.prefab
+  artifactKey: Guid(971e8b7e5e32c5c4b853388e240f84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar3_LOD_combined.prefab using Guid(971e8b7e5e32c5c4b853388e240f84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c2ba50c64f390a9c632e114df0ffa1') in 0.119231 seconds
+  Import took 0.128445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan2_LOD_combined.prefab
+  artifactKey: Guid(7c0f3e78bb0e3f64e91e305e5db80ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan2_LOD_combined.prefab using Guid(7c0f3e78bb0e3f64e91e305e5db80ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb600aec39821e981a28de11ef60784') in 0.106328 seconds
+  Import took 0.113864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Car5_LOD_combined.prefab
+  artifactKey: Guid(e133396edcceac94cbecf9ba5c451fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Car5_LOD_combined.prefab using Guid(e133396edcceac94cbecf9ba5c451fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca0b401793202b4a0d7d5fad948074f') in 0.131445 seconds
+  Import took 0.139096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Car2_LOD_combined.prefab
+  artifactKey: Guid(e938c832a94c5ec42ad5773f628f10f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Car2_LOD_combined.prefab using Guid(e938c832a94c5ec42ad5773f628f10f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43dd75064cae332118eb9e31b22dcaf') in 0.124724 seconds
+  Import took 0.132029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar2_LOD_combined.prefab
+  artifactKey: Guid(6c4de5209fa1f3b4abc8e65975f558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SpecialCar2_LOD_combined.prefab using Guid(6c4de5209fa1f3b4abc8e65975f558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d6077a2458f6ba404bf4ac9708c93e') in 0.164004 seconds
+  Import took 0.176313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar2_LOD_combined.prefab
+  artifactKey: Guid(e3bc27719075b6d4289d7c3ebccd3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar2_LOD_combined.prefab using Guid(e3bc27719075b6d4289d7c3ebccd3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a09dc79074693cffc71892216a02b1') in 0.092098 seconds
+  Import took 0.102522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus5_LOD_combined.prefab
+  artifactKey: Guid(faf95561e7e95d047b33eee46cd8e74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/MicroBus5_LOD_combined.prefab using Guid(faf95561e7e95d047b33eee46cd8e74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1133262bd4b6365c4293aba86289a4f9') in 0.100599 seconds
+  Import took 0.123058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Car4_LOD_combined.prefab
+  artifactKey: Guid(392d167f12bd7f34da709a48e211939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Car4_LOD_combined.prefab using Guid(392d167f12bd7f34da709a48e211939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c37731d41f74172f512ccd885eaaa9') in 0.085784 seconds
+  Import took 0.100945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan4_LOD_combined.prefab
+  artifactKey: Guid(25026b96e8247c246b610930a387ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan4_LOD_combined.prefab using Guid(25026b96e8247c246b610930a387ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54292308abfa2abaac8bd9b544ed6ad2') in 0.097405 seconds
+  Import took 0.104630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep1_LOD_combined.prefab
+  artifactKey: Guid(f1c12a5cca7c7854ab8338973574b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Jeep1_LOD_combined.prefab using Guid(f1c12a5cca7c7854ab8338973574b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11abdf0efd3885ebf52fc6eb8896c7d2') in 0.130728 seconds
+  Import took 0.160883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002474 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Truck1_LOD_combined.prefab
+  artifactKey: Guid(6edaf9d62858b0f40926254a3c225ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Truck1_LOD_combined.prefab using Guid(6edaf9d62858b0f40926254a3c225ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e262cb623697d8913e042d82c5e84') in 0.059828 seconds
+  Import took 0.191078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar1_LOD_combined.prefab
+  artifactKey: Guid(ebfaf84919c24664db8b293933fbd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar1_LOD_combined.prefab using Guid(ebfaf84919c24664db8b293933fbd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4747de6c1857edce1d48030668bc5ea4') in 0.113472 seconds
+  Import took 0.122153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan5_LOD_combined.prefab
+  artifactKey: Guid(ac9714852d30d2443ba052ac361164b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Sedan5_LOD_combined.prefab using Guid(ac9714852d30d2443ba052ac361164b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2b41d97e7cb8f4209497de6f83fe74') in 0.126907 seconds
+  Import took 0.133420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Car3_LOD_combined.prefab
+  artifactKey: Guid(9ef66074e36704840bbbc524ff474a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Car3_LOD_combined.prefab using Guid(9ef66074e36704840bbbc524ff474a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893ce43e2b233e9d91b06cd918e3ca66') in 0.107363 seconds
+  Import took 0.115451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar4_LOD_combined.prefab
+  artifactKey: Guid(bd79438f8fe1fb64fb873c142c148b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar4_LOD_combined.prefab using Guid(bd79438f8fe1fb64fb873c142c148b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5232a761e656ec77a03e0c56f1308d63') in 0.071211 seconds
+  Import took 0.122165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar5_LOD_combined.prefab
+  artifactKey: Guid(0a10e64bd5b0d8a438fabdfd496f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/SportCar5_LOD_combined.prefab using Guid(0a10e64bd5b0d8a438fabdfd496f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ce670017547f1bc83efc5a1381a4b0') in 0.221458 seconds
+  Import took 0.233321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Combined/Car1_LOD_combined.prefab
+  artifactKey: Guid(f6a97e347036c60428dbc4e2f6a5d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Combined/Car1_LOD_combined.prefab using Guid(f6a97e347036c60428dbc4e2f6a5d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c991672977abe9d2652a344b1a1795a8') in 0.134680 seconds
+  Import took 0.142385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.177691 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car1_LOD.prefab
+  artifactKey: Guid(120ff87f5f7fd0f4ab2ebfbe0bdfab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car1_LOD.prefab using Guid(120ff87f5f7fd0f4ab2ebfbe0bdfab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51aef11cd581f7ec9fdd415800a28d7') in 0.075648 seconds
+  Import took 0.082866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar3_LOD.prefab
+  artifactKey: Guid(788f9935d7972ec4faeae23bd0f988db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar3_LOD.prefab using Guid(788f9935d7972ec4faeae23bd0f988db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a032778c6cc98604d90f7c9829636553') in 0.103280 seconds
+  Import took 0.114967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar3_LOD.prefab
+  artifactKey: Guid(97da860909c4ee0428035179466ac5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar3_LOD.prefab using Guid(97da860909c4ee0428035179466ac5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad3e461a25f805312a671c5ca86b19') in 0.148320 seconds
+  Import took 0.157464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan2_LOD.prefab
+  artifactKey: Guid(a7e6497043cf4cb499ee9aa659bb50bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan2_LOD.prefab using Guid(a7e6497043cf4cb499ee9aa659bb50bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fa5b9e4b78aa92583579044ad3d571') in 0.155919 seconds
+  Import took 0.168274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus5_LOD.prefab
+  artifactKey: Guid(d5e05019094024d47b3d2994c545eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus5_LOD.prefab using Guid(d5e05019094024d47b3d2994c545eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbc659f849ee2acb4f55c62e93fe08f') in 0.187832 seconds
+  Import took 0.194422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar5_LOD.prefab
+  artifactKey: Guid(cb2b029da79204544836c2f8e849df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar5_LOD.prefab using Guid(cb2b029da79204544836c2f8e849df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714ff518df5aa03b7247cc842acf27c3') in 0.104493 seconds
+  Import took 0.113559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep2_LOD.prefab
+  artifactKey: Guid(b0c80f095a48c3741a5edf691bfdeb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep2_LOD.prefab using Guid(b0c80f095a48c3741a5edf691bfdeb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a719be133d138eaec480e56e9d7c816') in 0.136477 seconds
+  Import took 0.144123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus2_LOD.prefab
+  artifactKey: Guid(6c4d52c835090cb48916d8c642ef59a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus2_LOD.prefab using Guid(6c4d52c835090cb48916d8c642ef59a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41102b6cdefb0e37163d629013262992') in 0.127885 seconds
+  Import took 0.136614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep1_LOD.prefab
+  artifactKey: Guid(c426da656590e954280f9681cc63d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep1_LOD.prefab using Guid(c426da656590e954280f9681cc63d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4607f63c5c9ba0b36087c16facf40fd7') in 0.153351 seconds
+  Import took 0.163903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car4_LOD.prefab
+  artifactKey: Guid(1e231499c079f1f4b8f283d39cad4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car4_LOD.prefab using Guid(1e231499c079f1f4b8f283d39cad4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd474a926552755e5fbd389cccccffae') in 0.134333 seconds
+  Import took 0.144655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep4_LOD.prefab
+  artifactKey: Guid(fc81127a7f781e34db08ef66fe54b104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep4_LOD.prefab using Guid(fc81127a7f781e34db08ef66fe54b104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7402c1887435ef6481d0f818ab5286') in 0.160627 seconds
+  Import took 0.172086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar4_LOD.prefab
+  artifactKey: Guid(2d3f72ff53745344f9ad07f9af0f1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar4_LOD.prefab using Guid(2d3f72ff53745344f9ad07f9af0f1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1fd2877640372719517b6ae86d53e3') in 0.108770 seconds
+  Import took 0.118522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep5_LOD.prefab
+  artifactKey: Guid(46c3a83952ec15f4caa66d71807aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep5_LOD.prefab using Guid(46c3a83952ec15f4caa66d71807aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071c81e7cfc168316b399f8733ac53ff') in 0.148406 seconds
+  Import took 0.159413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar4_LOD.prefab
+  artifactKey: Guid(e784bdd06a05bdd4a8b67f8f34f92b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar4_LOD.prefab using Guid(e784bdd06a05bdd4a8b67f8f34f92b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86e709e38d1eae2e43850e5f6c12265') in 0.167402 seconds
+  Import took 0.179375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep3_LOD.prefab
+  artifactKey: Guid(b13a0cd3596fd424d93ba41e29819447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Jeep3_LOD.prefab using Guid(b13a0cd3596fd424d93ba41e29819447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba5eca650dd2b6c39e25d769815fd41') in 0.136140 seconds
+  Import took 0.146535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan5_LOD.prefab
+  artifactKey: Guid(6bcec094cd82e2c49ae64c9e0eb0bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan5_LOD.prefab using Guid(6bcec094cd82e2c49ae64c9e0eb0bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd821a6d4003a5d41ddf577dc818a93d5') in 0.127186 seconds
+  Import took 0.136510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar2_LOD.prefab
+  artifactKey: Guid(bfca4fa5f9574b84f8416976044c95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar2_LOD.prefab using Guid(bfca4fa5f9574b84f8416976044c95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb6f3532b528aa938a85764cc8703a9') in 0.171246 seconds
+  Import took 0.183904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan4_LOD.prefab
+  artifactKey: Guid(e19698d4b262f2442a0ee281f3b852c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan4_LOD.prefab using Guid(e19698d4b262f2442a0ee281f3b852c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f65836434b13297582d2fbd6b49e36') in 0.119163 seconds
+  Import took 0.236740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar5_LOD.prefab
+  artifactKey: Guid(dfef96aaa5725f541ac9ba5db2f259ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar5_LOD.prefab using Guid(dfef96aaa5725f541ac9ba5db2f259ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be3b85d70338c18604a7652819d46ab') in 0.160575 seconds
+  Import took 0.209932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car3_LOD.prefab
+  artifactKey: Guid(46e315b4085ce124782df6cc43d64c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car3_LOD.prefab using Guid(46e315b4085ce124782df6cc43d64c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914078b18ceafe15a135886ef67fcd9b') in 0.171122 seconds
+  Import took 0.181226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car2_LOD.prefab
+  artifactKey: Guid(0cb68a98fbcdbc746946eb2534dca3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car2_LOD.prefab using Guid(0cb68a98fbcdbc746946eb2534dca3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b40ef4ab7496ff6bcf7dcfc898a64d') in 0.146621 seconds
+  Import took 0.155967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car5_LODS.prefab
+  artifactKey: Guid(25596525968a80f45aaabb84fd4f4ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Car5_LODS.prefab using Guid(25596525968a80f45aaabb84fd4f4ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca517a5f758d9a161f781c6682927eda') in 0.185414 seconds
+  Import took 0.196222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan3_LOD.prefab
+  artifactKey: Guid(da6f11236900ad849bdc86390abf6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan3_LOD.prefab using Guid(da6f11236900ad849bdc86390abf6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8cd972684311188926d2260ddf91d') in 0.132966 seconds
+  Import took 0.145612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046701 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar1_LOD.prefab
+  artifactKey: Guid(98f3e5eca6b4b054681f18490d5d92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar1_LOD.prefab using Guid(98f3e5eca6b4b054681f18490d5d92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316144ec73d639d8716857e3f7e78aa6') in 0.140877 seconds
+  Import took 0.154184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Trick1_LOD.prefab
+  artifactKey: Guid(eddb3f48f646bf8489f1b0e70761b912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Trick1_LOD.prefab using Guid(eddb3f48f646bf8489f1b0e70761b912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559318316d9ea8590748e4c078b9456c') in 0.166820 seconds
+  Import took 0.176267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan1_LOD.prefab
+  artifactKey: Guid(abc2ae4727af457458df65d690558379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/Sedan1_LOD.prefab using Guid(abc2ae4727af457458df65d690558379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd8546eba6d1049612975b10ac7b9b2') in 0.148118 seconds
+  Import took 0.158254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar1_LOD.prefab
+  artifactKey: Guid(eb8de21039c87234aae115ccc0c116e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SportCar1_LOD.prefab using Guid(eb8de21039c87234aae115ccc0c116e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62dba85b00ed2c275618a4eaa12aad5') in 0.107500 seconds
+  Import took 0.115946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus1_LOD.prefab
+  artifactKey: Guid(0758847579d09a04b9c8b8fecd6fd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus1_LOD.prefab using Guid(0758847579d09a04b9c8b8fecd6fd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d605f6779c93f3eaf80123979990e05') in 0.166703 seconds
+  Import took 0.178569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus3_LOD.prefab
+  artifactKey: Guid(ad0ce6d17c7652140bdf2c0d88b2646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus3_LOD.prefab using Guid(ad0ce6d17c7652140bdf2c0d88b2646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6acc62ef4caa69a60685949cd23008') in 0.123918 seconds
+  Import took 0.133634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002497 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus4_LOD.prefab
+  artifactKey: Guid(7b1e9a5d3508f3547869f1d804b76f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/MicroBus4_LOD.prefab using Guid(7b1e9a5d3508f3547869f1d804b76f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bead061a120cf6967b1a345a7b385ec7') in 0.116405 seconds
+  Import took 0.125121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar2_LOD.prefab
+  artifactKey: Guid(c19c001c60e41af45bff978fc8a5bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Vehicles Pack/Prefabs/Detailed/SpecialCar2_LOD.prefab using Guid(c19c001c60e41af45bff978fc8a5bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a605ad95f9ff0c5abfdf93946bcecc6') in 0.145053 seconds
+  Import took 0.152744 seconds .
+
