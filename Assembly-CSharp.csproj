@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Kontrol.cs" />
-    <Compile Include="Assets\Scripts\Yol.cs" />
-    <Compile Include="Assets\Scripts\Kamera.cs" />
-    <Compile Include="Assets\Scripts\SwipeTest.cs" />
     <Compile Include="Assets\Scripts\SwipeManager.cs" />
     <Compile Include="Assets\Scripts\Escort.cs" />
+    <Compile Include="Assets\Scripts\Kamera.cs" />
+    <Compile Include="Assets\Scripts\Yol.cs" />
+    <Compile Include="Assets\Scripts\DusmanOlusturucu.cs" />
+    <Compile Include="Assets\Scripts\Dusman.cs" />
+    <Compile Include="Assets\Scripts\Kontrol.cs" />
+    <Compile Include="Assets\Scripts\OyunYoneticisi.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

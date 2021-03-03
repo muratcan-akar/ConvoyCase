@@ -6,8 +6,8 @@ public class SwipeManager : MonoBehaviour
 {
     private bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDraging = false;
-    public Kontrol kontrll;
-    public bool de;
+    public Kontrol kontrol;
+
     private Vector2 startTouch, swipeDelta;
 
     public Vector2 SwipeDelta { get { return swipeDelta; } }
@@ -75,15 +75,15 @@ public class SwipeManager : MonoBehaviour
                 if (x < 0)
                 {
                     swipeLeft = true;
-                    kontrll.SagaGit();
-                    de = true;
+                    kontrol.SagaGit();
+                
                 }
                     
                 else
                 {
                     swipeLeft = true;
-                    kontrll.SolaGit();
-                    de = false;
+                    kontrol.SolaGit();
+                  
                 }
             }
             else

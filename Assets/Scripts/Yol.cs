@@ -14,7 +14,7 @@ public class Yol : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            ArkamdaKalanYol.transform.position = new Vector3(ArkamdaKalanYol.position.x + 80f, ArkamdaKalanYol.position.y, ArkamdaKalanYol.position.z);
+            ArkamdaKalanYol.transform.position = new Vector3(ArkamdaKalanYol.position.x + 120f, ArkamdaKalanYol.position.y, ArkamdaKalanYol.position.z);
         }
     }
     // Update is called once per frame

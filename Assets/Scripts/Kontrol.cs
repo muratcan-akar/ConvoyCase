@@ -6,19 +6,40 @@ public class Kontrol : MonoBehaviour
 {
     public float YanaGitmeHizi;
     public float hiz;
+    public OyunYoneticisi oyunYoneticisi;
     public int serit;
+    public ParticleSystem Efek;
     public Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
+      
 
         YanaGitmeHizi = 0;
         serit = 3;
+        Efek.Stop(true);
 
 
     }
-  
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Dusman")
+        {
+            oyunYoneticisi.KaybetmeEkrani();
+            Invoke("KarekterYokEt", 0.3f);
+            Efek.Play(true);
+        }
+        if (other.gameObject.tag == "Finish")
+        {
+            oyunYoneticisi.KazanmaEkrani();
+        }
+    }
+    public void KarekterYokEt()
+    {
+        Destroy(this.gameObject);
+    }
+
     IEnumerator Hizzala()
     {
         yield return new WaitForSeconds(.6F);
@@ -30,7 +51,7 @@ public class Kontrol : MonoBehaviour
         if (serit < 6)
         {
             serit++;
-            YanaGitmeHizi = 200 f;
+            YanaGitmeHizi = 170f;
             StartCoroutine(Hizzala());
         }
     }
@@ -38,7 +59,7 @@ public class Kontrol : MonoBehaviour
     {
         if (serit > 0){
            serit--;
-            YanaGitmeHizi = -200f;
+            YanaGitmeHizi = -170f;
             StartCoroutine(Hizzala());
         }
         

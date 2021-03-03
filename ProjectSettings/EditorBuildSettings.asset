@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Stylized Vehicles Pack/Scenes/LOD_Demo.unity
     guid: 2610d653224b0ed44a7c7d4c8cb4551a
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/AnaEkran.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
